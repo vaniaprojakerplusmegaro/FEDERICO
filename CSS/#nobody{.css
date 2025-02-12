@@ -1,0 +1,37 @@
+#no
+body{
+    display: flex;
+    justify-content: center;
+    height:100hv;
+    margin:0;
+    background-color:cadetblue;
+    overflow:hidden;
+    position:relative;
+}
+#no{
+    color:hwb(310 14% 0%);
+    position:absolute;
+    padding:8px 8px;
+    font-size:10px;
+    border:none;
+    background-color:black;
+    border-radius:5px;
+    cursor:pointer;
+}
+#no:hover{
+    background-color:bisque;
+}
+#no:active{
+    background-color:lightyellow;
+}
+#si{
+    color:hwb(310 14% 0%);
+    background-color:black;
+    border-radius:5px;
+}
+#si:hover{
+    background-color:bisque;
+}
+#si:active{
+    background-color:lightyellow;
+}

@@ -13,7 +13,6 @@ boton2.addEventListener('click',() => {
     boton2.style.left= `${newX}px`;
     boton2.style.top=`${newY}px`;
 });
-
 const boton3=document.getElementById('si')
 boton3.addEventListener('click', function(){
     alert("SIIII YO TAMBIEN QUIERO");
