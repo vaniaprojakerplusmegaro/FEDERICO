@@ -1,0 +1,233 @@
+/* Estilos generales */
+h1 {
+    background-color: #D8BFD8; /* Color lila */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px; /* Tamaño intermedio entre 12 y 14 */
+    color: #820050; /* Morado oscuro */
+    margin: 0; /* Elimina márgenes del body */
+    padding: 10px; /* Ajusta el espaciado interno */
+}
+
+.videoo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  iframe {
+    max-width: 100%; /* Hace que el iframe sea responsive */
+    height: auto;
+  }
+  
+
+body {
+    background-color: #D8BFD8; /* Color lila */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px; /* Tamaño intermedio entre 12 y 14 */
+    color: #4B0082; /* Morado oscuro */
+    margin: 0; /* Elimina márgenes del body */
+    padding: 10px; /* Ajusta el espaciado interno */
+}
+
+/* Alineación del texto */
+.texto {
+    text-align: left; /* Asegura alineación a la izquierda */
+    margin: 0; /* Elimina márgenes adicionales */
+    padding: 0; /* Evita desplazamientos */
+    width: 90%; /* Usa todo el ancho disponible */
+}
+
+
+table{
+    width: 60px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #eacefe;
+}
+
+th, td{
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+th:hover{
+    background-color: aliceblue;
+}
+/* Imágenes */ 
+img, #img1 {
+    width: 250px;
+    height: 200px;
+    border-radius: 81px;
+    display: block; /* Asegura que las imágenes no tengan espacios extras */
+    margin: 0 auto; /* Centra las imágenes individuales */
+}
+
+.imagenes {
+    display: flex; /* Coloca las imágenes en fila */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Alinea verticalmente en caso de diferentes tamaños */
+    gap: 10px; /* Espacio entre imágenes */
+    flex-wrap: wrap; /* Evita que se salgan de la pantalla en resoluciones pequeñas */
+}
+
+.imagenes img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Corrección de la transición */
+}
+
+.imagenes img:hover {
+    transform: scale(5); /* Efecto de zoom al pasar el cursor */
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Color semitransparente */
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: darkslategray;
+}
+
+/* Botón Edgar Bebesin */
+#edgarbebesin {
+    color: hwb(310 14% 0%);
+    background: black;
+    font-size: small;
+    border-radius: 8px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+#edgarbebesin:hover {
+    background-color: bisque;
+}
+
+#edgarbebesin:active {
+    background-color: lightyellow;
+}
+
+/* Navegación */
+nav {
+    background-color: pink;
+    color: honeydew;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    background-color: pink;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #939aa2;
+}
+
+/* Submenú */
+nav ul li.opcion-submenu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #222;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+nav ul li.opcion-submenu:hover .submenu {
+    display: block;
+}
+
+nav ul li .submenu li {
+    margin: 0;
+}
+
+nav ul li .submenu li a {
+    font-size: 12px;
+    color: white;
+    padding: 8px 15px;
+    display: block;
+}
+
+nav ul li .submenu li a:hover {
+    background-color: #444;
+}
+
+/* Estilos de enlaces generales */
+a {
+    color: cadetblue;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: darkviolet;
+}
+
+section{
+    padding: 20px;
+    text-align: center;
+}
+
+/* videos */
+.videos {
+    display: none; /* Ocultamos los videos por defecto */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    min-width: 150px;
+    border-radius: 5px;
+}
+
+.videos li {
+    margin: 0;
+}
+
+.videos li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.videos li a:hover {
+    background-color: #666;
+}
+
+/* Mostrar los videos cuando se pase el cursor */
+.opcion-videos:hover .videos {
+    display: block;
+}
