@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANIA BLOG</title>
+    <link rel="stylesheet" href="../CSS/musica.css">
+    <style>
+        nav {
+            background-color: #e971e9ad;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li {
+            position: relative;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Estilos para el submenú */
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #444;
+            list-style: none;
+            padding: 0;
+            min-width: 150px;
+            border-radius: 5px;
+        }
+
+        .submenu li {
+            margin: 0;
+        }
+
+        .submenu li a {
+            display: block;
+            padding: 10px;
+            color: white;
+        }
+
+        .submenu li a:hover {
+            background-color: #666;
+        }
+
+        /* Mostrar submenú cuando se pasa el cursor */
+        .opcion-submenu:hover .submenu {
+            display: block;
+        }
+
+        /* Botón estilizado */
+        button {
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #e91e63;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="pagina.html">INICIO</a></li>
+            <li class="opcion-submenu">
+                <a href="#">SECCIONES</a>
+                <ul class="submenu">
+                    <li><a href="edgar.html">EDGAR</a></li>
+                    <li><a href="vidaescolar.html">VIDA ESCOLAR</a></li>
+                    </ul></li>
+                    <ul>
+                        <li class="opcion-videos">
+                            <a href="#">VIDEOS QUE ME DAN RISA</a>
+                            <ul class="videos">
+                                <li><a href="https://www.youtube.com/watch?v=T2SNYP1Wt48">VIDEO 1</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=SQiVrvCHVN4">VIDEO 2</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=glaFn_mdqdQ">VIDEO 3</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=p8-euxREpPA&list=LL&index=55">VIDEO 4</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=GEuRF70RUo0">VIDEO 5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+    </nav>             
+
+    <h1>YO SOY..</h1>
+    <div class="imagenes">
+    <div class="texto">
+        <p>
+            Soy Vania Gisela MM (apellidos confidenciales) y curso el sexto semestre en 
+            la preparatoria Víctor Rosales. Mi promedio es 8/10. Lo que más me gusta de esta prepa es la diversidad; 
+            he conocido a muchas personas agradables y otras no tanto, pero, desde mi experiencia como 
+            chica preparatoriana, ha sido muy ameno y divertido. Hice muchas travesuras y aprendí. Aprendí SOBRE MÍ.
+            Soy nacida en Sinaloa, he vivido en el antes Distrito Federal, Estado de México, Estado de Hidalgo, Sinaloa 
+            y por último Zacatecas, la verdad no me gusta mucho vivir aquí, pero no tengo de otra.  
+        </p> 
+            <div class="videoo-container">
+            <img src="../IMAGENES WASZA/VANIA.jpg"> <iframe width="560" height="315" src="https://www.youtube.com/embed/TIGdXFnHuDI?si=AUBZSZVzPb0dGIwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          
+        <p>
+            Actualmente estoy en el bachillerato de QUÍMICO-BIÓLOGO. 
+            Quiero estudiar medicina y soy bien buena onda.  
+            Ahora uso brackets y tengo dientes bonitos. 
+            También saco 10 en 8 de las 10 materias que me dan.  
+        </p>
+        
+        <p>
+            Tengo pocos amigos, pero son suficientes para mí.
+             Sin embargo, la persona más especial fuera de mi familia  
+            es Edgar. Edgar reprobó un año, y por eso lo conocí,
+             pero en otra página lo cuento.  
+        </p>
+        
+        <p>
+            Amo muchísimo a los gatos, sobre todo a mis gatos: CHETO, COCO Y NIKKI (RIP).  
+            Nikki no fue mi primer gato, pero ha sido el más especial e importante en mi vida.
+             Me apoyó en todos mis malos momentos,  
+            porque, para los que no saben, me internaron en el hospital psiquiátrico por depresión, 
+            ansiedad y quién sabe cuánto más.  
+            No me avergüenza ni me pone triste recordarlo; 
+            es parte de mi vida y me ayudó mucho a ser mejor hoy.  
+        </p>
+        <section id="Galeria">
+            <h2>Galeria de mis GATOS</h2>
+        <ul>
+            <table class="tabla-imagenes">
+                <thead>
+                    <tr>
+                        <th> IMAGEN </th>
+                        <th> DESCRIPCIÓN </th>
+                    </tr>
+                    <tr>
+                        <td><img src="../IMAGENES WASZA/VANIUA NIKKI.jpg"> </td>
+                        <td>El gato NEGRO es: Nikki.</td>
+                    </tr>
+                    <tr> 
+                        <td><img src="../IMAGENES WASZA/VAQNIA CHETO COCO.jpg"></td>
+                        <td> <li>El gato SIAMÉS (café con blanco) es: Coco. </li>
+                             <li>El gato SIAMÉS (café con blanco) es: Coco. </li>
+                        </td>
+                    </tr>
+                </thead>
+            </table>
+        </ul>
+        <p>
+            Tristemente, hace dos años, NIKKI fue brutalmente asesinado por perros. Por eso ahora los odio.  
+            Después de su pérdida, todos estábamos devastados en mi casa, y fue cuando decidieron adoptar a CHETO.  
+            Yo, mejor que nadie, confirmo que los gatos naranjas son el diablo en persona.  
+            Meses después, mi mamá me regaló a COCO porque siempre quise un gato siamés.  
+            Ellos siguen conmigo. (:) 
+        </p>
+        
+        <p>
+            Siempre he sido una niña rara, con un humor raro, veía memes de la grasa y no tenía un estilo como ahora,
+            esta etapa de mi vida en la prepa, me ayudo más que nada a encontrarme y saber quien soy, como soy y sobre todo
+            ¿Qué es lo que quiero en mi vida?
+            Ahora voy al gym junto a Edgar, suelo leer de vez en cuando, escucho mucha musica, y trato de ser activa 
+            gran parte del tiempo, pero lo mejor de todo es que ahora VIVO MUY FELIZ.  
+        </p>
+        </div>
+    <section id="Galeria">
+    </section>
+    <div class="footer">
+        © 2025 Vania Blog - Todos los derechos reservados
+    </div>
+    
+</body>
+</html>
